@@ -23,7 +23,7 @@ The payload for a card looks like this:
 ```javascript
 {
   "name": "Sparky",
-  "skills: [
+  "skills": [
     "draw": 1,
     "write": 2,
     "sing": 4,
