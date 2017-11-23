@@ -7,7 +7,11 @@ export default class App extends Component {
       <div id='app'>
         <div id='app-bg' />
         <div id='app-inner'>
-          <h1>NZK Cards</h1>
+        <div id='add-card-container'>
+          <div id='add-card-button'>
+            +
+          </div>
+        </div>
         </div>
       </div>
     )

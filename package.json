@@ -8,6 +8,7 @@
     "start": "webpack-dev-server --open"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-syntax-decorators": "^6.13.0",

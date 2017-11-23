@@ -13,7 +13,7 @@
   box-sizing: border-box;
 }
 
-body { 
+body {
   margin: 0;
 }
 
@@ -24,10 +24,7 @@ body {
   min-height: 100vh;
   background: linear-gradient(to right, rgb(35, 37, 38), rgb(65, 67, 69));
   color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  padding: 20px;
 }
 
 #app-bg {
@@ -46,6 +43,11 @@ body {
 #app-inner{
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 #app h1{
@@ -55,4 +57,27 @@ body {
   color: white;
   font-family: 'NZK';
   text-transform: uppercase;
+}
+
+#add-card-button {
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#add-card-container {
+  height: 700px;
+  width: 400px;
+  border: 2px solid black;
+  align-self: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
