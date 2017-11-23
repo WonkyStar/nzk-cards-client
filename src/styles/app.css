@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'NZK';
+  src: url("/fonts/NZK/nightzookeeper-regular-webfont.eot");
+  src: url("/fonts/NZK/nightzookeeper-regular-webfont.eot?#iefix") format('embedded-opentype'),
+    url("/fonts/NZK/nightzookeeper-regular-webfont.woff") format('woff'),
+    url("/fonts/NZK/nightzookeeper-regular-webfont.ttf") format('truetype'),
+    url("/fonts/NZK/nightzookeeper-regular-webfont.svg#night_zookeeperregular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+}
+
+#app {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to right, rgb(35, 37, 38), rgb(65, 67, 69));
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#app-bg {
+  background-image: url("/images/temple.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .4;
+}
+
+#app-inner{
+  position: relative;
+  z-index: 1;
+}
+
+#app h1{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  color: white;
+  font-family: 'NZK';
+  text-transform: uppercase;
+}
